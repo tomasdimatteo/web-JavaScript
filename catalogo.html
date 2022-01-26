@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- SEO -->
+    <title>La Ropería - Catálogo online - Indumentaria femenina y masculina - Ropa de hombre y mujer</title>
+    <meta name="description" content="En el catálogo de La Ropería encontrarás una gran variedad de indumentaria para hombre y mujer. Aceptamos todos los medios de pago. Ahora 3, 6, 12 y 18 con tarjetas de crédito.">
+    <meta name="keywords"  content="ROPA, INDUMENTARIA, TOP, FALDA, SHORT, BUZO, JEAN, MALLA, BIKINI, LENCERIA, VERANO, SUMMER SEASON, PRIMAVERA, ROPA DE TEMPORADA, ROPA DE MODA, BUEN PRECIO, ROPA ECONOMICA, MOZAMBIQUE, VAN COMO PIÑA, YASANA, AKWARA, FRIDA INTIMA">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./Imagenes/Logo SF.ico" type="image/ico">
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark header__bg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./Imagenes/laroperia.png" alt="Logo del emprendimiento" style="width: 5rem;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#toggleMobileMenu" aria-controls="#toggleMobileMenu" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li><a class="nav-link" href="#">Inicio</a></li>
+                        <li><a class="nav-link" href="#">Catálogo</a></li>
+                        <li><a class="nav-link" href="./formulario-contacto.html">Contacto</a></li>
+                        <li><a class="nav-link" href="#">Como comprar</a></li>
+                        <li><a class="nav-link" href="#">Preguntas Frecuentes</a></li>
+                        <li>
+                            <div class="text-light text-start dropdown">
+                            <button class="btn btn-outline-dark dropdown-toggle cart" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./Imagenes/carritoBlanco.png" alt="Carrito" style="width:2em">
+                            </button>
+                            <ul class="dropdown-menu" id="dropDM" aria-labelledby="dropdownMenuButton1">
+                                <h3 style="font-size: 0.5rem" id="cartOutro"></h3>
+                            </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="text-light text-center">
+            <h1>¡Bienvenido a nuestro catálogo!</h1>
+        </div>
+        <h2 class="text_to_modify"></h2>
+        <div class="container text-center mx-auto p-2 m-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mt-3">
+                        <div class="product aling-items-center p-2 text-center">
+                            <img class="rounded" src="./Imagenes/productos/buzoBordo.jpg" alt="Buzo bordó" style="width:100%">
+                            <h6 class="main__fuenteTitulo mb-2 text-muted">Community Crew</h6>
+                            <h5 class="main__fuenteTitulo">BUZO BORDÓ</h5>
+                            <div class="info mt-3">
+                                <span class="main__fuenteTexto card-text">Talle: L</span>
+                            </div>
+                            <div class="cost mt-3 text-dark">
+                                <span class="main__fuenteTexto">$2990</span>
+                            </div>
+                        </div>
+                        <div class="main__bg p-3 text-center mt-3 cursor">
+                            <button type="button" class="btn btn-outline-dark" id="btn1">Añadir al carrito <img src="./Imagenes/carritoHueco.png" alt="Icono carrito" style="width:2em"></button>                               
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mt-3">
+                        <div class="product aling-items-center p-2 text-center">
+                            <img class="rounded" src="./Imagenes/productos/remeC.jpg" alt="Remera C++" style="width:100%">
+                            <h6 class="main__fuenteTitulo mb-2 text-muted">Mozambique</h6>
+                            <h5 class="main__fuenteTitulo">REMERA C++</h5>
+                            <div class="info mt-3">
+                                <span class="main__fuenteTexto card-text">Talle: L</span>
+                            </div>
+                            <div class="cost mt-3 text-dark">
+                                <span class="main__fuenteTexto">$990</span>
+                            </div>
+                        </div>
+                        <div class="main__bg p-3 text-center mt-3 cursor">
+                            <button type="button" class="btn btn-outline-dark" id="btn2">Añadir al carrito <img src="./Imagenes/carritoHueco.png" alt="Icono carrito" style="width:2em"></button> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mt-3">
+                        <div class="product aling-items-center p-2 text-center">
+                            <img class="card-img-top" src="./Imagenes/productos/jeans.jpg" alt="Jeans de diversos colores" style="width:100%">
+                            <h6 class="main__fuenteTitulo mb-2 text-muted">Van Como Piña</h6>
+                            <h5 class="main__fuenteTitulo">JEANS SURTIDOS</h5>
+                            <div class="info mt-3">
+                                <span class="main__fuenteTexto card-text">Talle: 48</span>
+                            </div>
+                            <div class="cost mt-3 text-dark">
+                                <span class="main__fuenteTexto">$2690</span>
+                            </div>
+                        </div>
+                        <div class="main__bg p-3 text-center mt-3 cursor">
+                            <button type="button" class="btn btn-outline-dark" id="btn3">Añadir al carrito <img src="./Imagenes/carritoHueco.png" alt="Icono carrito" style="width:2em"></button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="container text-center mx-auto">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-4 p-3 m-2 mx-auto">
+                    <h3>Contactanos</h3>
+                    <div>
+                        <p>📱 123456789</p>
+                        <p>📧 laroperia@shop.com</p>
+                        <p>⏩ Av. Transitada 1234</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-lg-4 p-3 m-2 mx-auto">
+                    <h3>Medios de pago</h3>
+                    <div>
+                        <img class="m-1" src="./Imagenes/tarjetas/amex.png" alt="Tarjeta Amex" style="width: 4em;">
+                        <img class="m-1" src="./Imagenes/tarjetas/visa.png" alt="Tarjeta Visa" style="width: 4em;">
+                        <img class="m-1" src="./Imagenes/tarjetas/mastercard.png" alt="Tarjeta Master" style="width: 4em;">
+                        <img class="m-1" src="./Imagenes/tarjetas/cabal.png" alt="Tarjeta Cabal" style="width: 4em;">
+                        <img class="m-1" src="./Imagenes/tarjetas/tarjeta-naranja.png" alt="Tarjeta Naranja"
+                        style="width: 4em;">
+                        <img class="m-1" src="./Imagenes/tarjetas/mercadopago.png" alt="Mercadopago" style="width: 4em;">
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-lg-4 p-3 m-2 mx-auto">
+                    <h3>Seguinos</h3>
+                    <a class="m-1" href="https://www.instagram.com/laroperia_showroom/" target="_blank"><img class="body__transition"
+                            src="./Imagenes/instagram.png" alt="Logo instagram" style="width: 4em;"></a>
+                    <a class="m-1 body__transition" href="https://www.facebook.com/laroperia.mza" target="_blank"><img class="body__transition"
+                            src="./Imagenes/facebook.png" alt="Logo instagram" style="width: 4em;"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
